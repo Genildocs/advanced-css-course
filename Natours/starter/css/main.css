@@ -196,7 +196,6 @@ body {
 .composition__photo {
   width: 55%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
   position: absolute;
   z-index: 10;
   transition: all 0.2s;
@@ -216,9 +215,12 @@ body {
 }
 .composition__photo:hover {
   outline: 1.5rem solid rgb(85, 197, 122);
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-0.5rem);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   z-index: 20;
+}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.95);
 }
 
 .header {
@@ -248,6 +250,12 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -25vh;
+}
+
+.section-features {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(/img/nat-4.jpg);
+  background-size: cover;
 }
 
 .row {
