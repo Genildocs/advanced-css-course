@@ -1,6 +1,7 @@
 .row {
     max-width: $grid-widht;
     margin: 0 auto;
+    
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical; // aplica esse valor em todos os elementos menos o ultimo. 
