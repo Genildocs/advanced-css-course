@@ -29,4 +29,39 @@ body {
   font-weight: 300;
 }
 
+.features {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: bisque;
+}
+
+.gallery {
+  background-color: blue;
+}
+
+.header {
+  background-color: brown;
+}
+
+.homes {
+  background-color: cadetblue;
+}
+
+.realtors {
+  background-color: chartreuse;
+}
+
+.sidebar {
+  background-color: coral;
+}
+
+.story__pictures {
+  background-color: cornflowerblue;
+}
+.story__content {
+  background-color: crimson;
+}
+
 /*# sourceMappingURL=style.css.map */
