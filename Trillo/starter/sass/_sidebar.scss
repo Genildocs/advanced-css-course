@@ -1,5 +1,10 @@
 .sidebar{
+<<<<<<< HEAD
     background-color: aqua;
     grid-column: sidebar-start /sidebar-end;
+=======
+    background-color: coral;
+    grid-column: sidebar-start / sidebar-end;
+>>>>>>> origin/HEAD
     grid-row: 1 / -1;
 }

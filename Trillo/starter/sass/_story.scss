@@ -1,4 +1,5 @@
 .story{
+<<<<<<< HEAD
 
     &__pictures{
         background-color: crimson;
@@ -6,5 +7,15 @@
 
     &__content{
         background-color: darkcyan;
+=======
+    &__pictures{
+        background-color:cornflowerblue;
+        grid-column: full-start / col-end 4 ;
+    }
+
+    &__content{
+        background-color: crimson;
+        grid-column: col-end 5 / full-end;
+>>>>>>> origin/HEAD
     }
 }

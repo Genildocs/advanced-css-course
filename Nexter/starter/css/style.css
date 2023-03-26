@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  /* grid-template-columns: ; */
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+  grid-template-columns: repeat(8, minmax(min-content, 14rem));
+}
+
+.sidebar {
+  background-color: #c69963;
+}
+
+.header {
+  background-color: #54483A;
+}
+
+.realtors {
+  background-color: #101d2c;
+}
+
+.features {
+  background-color: #aaa;
+}
+
+.story__pictures {
+  background-color: #c69963;
+}
+.story__content {
+  background-color: red;
+}
+
+.home {
+  background-color: blue;
+}
+
+.gallery {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

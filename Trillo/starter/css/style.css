@@ -5,7 +5,11 @@
   --color-grey-light-1: #f9f7f6;
   --color-grey-light-2: #aaa;
   --color-grey-dark-1: #54483a;
+<<<<<<< HEAD
   --color-grey-dark-2: #6d5d4b;
+=======
+  --color-grey-dark-2: #6d5d48;
+>>>>>>> origin/HEAD
   --font-primary: "Nunito", sans-serif;
   --font-display: "Josefin Sans", sans-serif;
 }
@@ -27,21 +31,32 @@ body {
   font-family: var(--font-primary);
   color: var(--color-grey-dark-2);
   font-weight: 300;
+<<<<<<< HEAD
   line-height: 1.6;
+=======
+>>>>>>> origin/HEAD
 }
 
 .container {
   display: grid;
   grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+<<<<<<< HEAD
   grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end];
 }
 
 .features {
   background-color: rgb(114, 102, 102);
+=======
+  grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+}
+.features {
+  background-color: aqua;
+>>>>>>> origin/HEAD
   grid-column: center-start/center-end;
 }
 
 .footer {
+<<<<<<< HEAD
   background-color: blueviolet;
 }
 
@@ -63,15 +78,52 @@ body {
 
 .sidebar {
   background-color: aqua;
+=======
+  background-color: bisque;
+  grid-column: full-start/full-end;
+}
+
+.gallery {
+  background-color: blue;
+  grid-column: full-start/full-end;
+}
+
+.header {
+  background-color: brown;
+  grid-column: full-start/col-end 6;
+}
+
+.homes {
+  background-color: cadetblue;
+  grid-column: center-start/center-end;
+}
+
+.realtors {
+  background-color: chartreuse;
+  grid-column: col-start 7/full-end;
+}
+
+.sidebar {
+  background-color: coral;
+>>>>>>> origin/HEAD
   grid-column: sidebar-start/sidebar-end;
   grid-row: 1/-1;
 }
 
 .story__pictures {
+<<<<<<< HEAD
   background-color: crimson;
 }
 .story__content {
   background-color: darkcyan;
+=======
+  background-color: cornflowerblue;
+  grid-column: full-start/col-end 4;
+}
+.story__content {
+  background-color: crimson;
+  grid-column: col-end 5/full-end;
+>>>>>>> origin/HEAD
 }
 
 /*# sourceMappingURL=style.css.map */
