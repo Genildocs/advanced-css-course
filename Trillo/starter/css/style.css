@@ -36,12 +36,16 @@ body {
 }
 
 .features {
-  background-color: aqua;
   grid-column: center-start/center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
 }
 
 .footer {
   background-color: blueviolet;
+  grid-column: full-start/full-end;
 }
 
 .gallery {
@@ -76,7 +80,7 @@ body {
 }
 .story__content {
   background-color: crimson;
-  grid-column: col-end 5/full-end;
+  grid-column: col-start 5/full-end;
 }
 
 /*# sourceMappingURL=style.css.map */
