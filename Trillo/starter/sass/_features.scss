@@ -10,4 +10,13 @@
 
 .feature{
     
+    &__icon{
+        fill: var(--color-primary);
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    &__text{
+        font-size: 1.7rem;
+    }
 }
